@@ -21,7 +21,6 @@ module.exports = function createCompare (paths) {
       var _b = nested.get(b, path)
 
       r = compare(_a, _b)
-      console.log(_a, _b, r)
       if(r !== 0) return r * reverse
     }
     return r
